@@ -63,6 +63,7 @@ function onCorrect(color) {
     let box = document.getElementsByClassName("box");
     for (let i = 0; i < diff; i++) {
         box[i].style.backgroundColor = color;
+        box[i].style.visibility = "visible";
     }
     let head = document.querySelector(".heading");
     head.style.backgroundColor = color;
