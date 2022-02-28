@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+    font-family: Lato;
+}
+
+body {
+    margin: 0px;
+    background: linear-gradient(rgba(174, 174, 19, 0.333), rgba(189, 44, 158, 0.467)) no-repeat;
+    height: 100vh;
+    animation: change 10s ease-in-out infinite;
+}
+
+.heading {
+    margin: 0px;
+    text-align: center;
+    background-color: bisque;
+    font-size: 40px;
+    height: 180px;
+}
+
+.eh {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    margin: 0px;
+    padding: 0px;
+    background-color: darkolivegreen;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* .boxes {
+    background-color: rgb(108, 165, 42);
+    display: grid;
+    grid-template-columns: 133px 133px 133px;
+    grid-template-rows: 133px 133px 133px;
+    justify-content: center;
+    height: 1000px;
+}
+
+.color {
+    background-color: rgb(216, 209, 200);
+    height: 120px;
+    width: 120px;
+} */
+
+#page {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 200px 200px 200px;
+}
+
+.box {
+    height: 122px;
+    width: 122px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.072);
+    margin: 5vh;
+}
+
+#solution {}
